@@ -1,0 +1,32 @@
+email:
+  from:
+    - name: 163-dunhanson
+      authenticator:
+        username: dunhanson@163.com
+        password: '******'
+      smtp:
+        host: smtp.163.com
+        port: 25
+        ssl: true
+    - name: 126-dunhanson
+      authenticator:
+        username: dunhanson@126.com
+        password: '******'
+      smtp:
+        host: smtp.126.com
+        port: 25
+        ssl: true
+  to:
+    - name: qq-dunhanson
+      address: dunhanson@qq.com
+    - name: qq-964019939
+      address: 964019939@qq.com
+  fromTo:
+    - name: 1
+      description: test1
+      from: 163-dunhanson
+      to: qq-dunhanson
+    - name: 2
+      description: test2
+      from: 126-dunhanson
+      to: qq-964019939

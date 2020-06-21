@@ -1,0 +1,23 @@
+email:
+  from:
+    - name: dunhanson@163.com
+      authenticator:
+        username: dunhanson@163.com
+        password: TGPVTMQNXEQRRUYI
+      smtp:
+        host: smtp.163.com
+        port: 25
+        ssl: true
+    - name: dunhanson@126.com
+      authenticator:
+        username: dunhanson@126.com
+        password: TGPVTMQNXEQRRUYI
+      smtp:
+        host: smtp.126.com
+        port: 25
+        ssl: true
+  to:
+    - name: dunhanson@qq.com
+      address: dunhanson@qq.com
+    - name: 964019939@qq.com
+      address: 964019939@qq.com
